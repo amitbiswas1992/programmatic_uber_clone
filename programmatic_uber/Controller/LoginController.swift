@@ -24,7 +24,7 @@ class LoginController: UIViewController {
         let view = UIView()
         view.backgroundColor = .red
         let imageView = UIImageView()
-        imageView.image = #imageLiteral(resourceName: "two")
+        imageView.image = UIImage(named: "two")
         imageView.alpha = 0.87
         view.addSubview(imageView)
         return view
