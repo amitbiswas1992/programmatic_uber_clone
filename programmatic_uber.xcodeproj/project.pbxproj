@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E63D4BB23F90FBA007D9EB6 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E63D4BA23F90FBA007D9EB6 /* LoginController.swift */; };
+		5E63D4BD23F92CF3007D9EB6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E63D4BC23F92CF3007D9EB6 /* Extensions.swift */; };
 		5EC1092723F90AF000785584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1092623F90AF000785584 /* AppDelegate.swift */; };
 		5EC1092923F90AF000785584 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1092823F90AF000785584 /* SceneDelegate.swift */; };
 		5EC1092E23F90AF000785584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC1092C23F90AF000785584 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		5E63D4BA23F90FBA007D9EB6 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		5E63D4BC23F92CF3007D9EB6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5EC1092323F90AF000785584 /* programmatic_uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = programmatic_uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC1092623F90AF000785584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC1092823F90AF000785584 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		5E63D4B923F90EAC007D9EB6 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				5E63D4BC23F92CF3007D9EB6 /* Extensions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				5EC1092723F90AF000785584 /* AppDelegate.swift in Sources */,
 				5E63D4BB23F90FBA007D9EB6 /* LoginController.swift in Sources */,
 				5EC1092923F90AF000785584 /* SceneDelegate.swift in Sources */,
+				5E63D4BD23F92CF3007D9EB6 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
