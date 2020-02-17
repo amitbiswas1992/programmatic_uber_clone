@@ -12,18 +12,17 @@
 		5EC1092723F90AF000785584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1092623F90AF000785584 /* AppDelegate.swift */; };
 		5EC1092923F90AF000785584 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1092823F90AF000785584 /* SceneDelegate.swift */; };
 		5EC1092E23F90AF000785584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC1092C23F90AF000785584 /* Main.storyboard */; };
-		5EC1093023F90AF400785584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC1092F23F90AF400785584 /* Assets.xcassets */; };
 		5EC1093323F90AF400785584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC1093123F90AF400785584 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E63D4BA23F90FBA007D9EB6 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		5E63D4BC23F92CF3007D9EB6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5E63D4C023FA7281007D9EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EC1092323F90AF000785584 /* programmatic_uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = programmatic_uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC1092623F90AF000785584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC1092823F90AF000785584 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5EC1092D23F90AF000785584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5EC1092F23F90AF400785584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EC1093223F90AF400785584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC1093423F90AF400785584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,9 +102,9 @@
 				5EC1092623F90AF000785584 /* AppDelegate.swift */,
 				5EC1092823F90AF000785584 /* SceneDelegate.swift */,
 				5EC1092C23F90AF000785584 /* Main.storyboard */,
-				5EC1092F23F90AF400785584 /* Assets.xcassets */,
 				5EC1093123F90AF400785584 /* LaunchScreen.storyboard */,
 				5EC1093423F90AF400785584 /* Info.plist */,
+				5E63D4C023FA7281007D9EB6 /* Assets.xcassets */,
 			);
 			path = programmatic_uber;
 			sourceTree = "<group>";
@@ -169,7 +168,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC1093323F90AF400785584 /* LaunchScreen.storyboard in Resources */,
-				5EC1093023F90AF400785584 /* Assets.xcassets in Resources */,
 				5EC1092E23F90AF000785584 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

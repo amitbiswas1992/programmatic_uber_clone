@@ -20,6 +20,29 @@ class LoginController: UIViewController {
         return label
     }()
     
+    private let emailContainerView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .red
+        let imageView = UIImageView()
+        imageView.image = #imageLiteral(resourceName: "two")
+        imageView.alpha = 0.87
+        view.addSubview(imageView)
+        return view
+        
+    }()
+    
+    private let textField: UITextField  = {
+        let tf = UITextField()
+        
+        tf.borderStyle = .none
+        tf.font = UIFont.systemFont(ofSize: 16)
+        tf.textColor = .white
+        tf.keyboardAppearance = .dark
+        tf.attributedPlaceholder = NSAttributedString(string: "Email", attributes: [NSAttributedString.Key.foregroundColor : UIColor.lightGray])
+        
+        return tf
+    }()
+    
 //
 //    MARK: - LifeCycle
         override func viewDidLoad() {
@@ -29,6 +52,9 @@ class LoginController: UIViewController {
             view.addSubview(titleLabel)
             titleLabel.anchor(top: view.safeAreaLayoutGuide.topAnchor)
             titleLabel.centerX(inView: view)
+            
+            view.addSubview(emailContainerView)
+            emailContainerView.anchor(top: titleLabel.bottomAnchor,left: view.leftAnchor, right: view.rightAnchor,paddingTop: 40, paddingLeft: 16, paddingRight: 16, height: 50)
     
     
         }
